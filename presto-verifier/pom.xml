@@ -70,10 +70,10 @@
             <artifactId>presto-common</artifactId>
         </dependency>
 
-        <dependency>
+        <!-- <dependency>
             <groupId>com.facebook.presto</groupId>
             <artifactId>presto-spark-common</artifactId>
-        </dependency>
+        </dependency> -->
 
         <dependency>
             <groupId>com.facebook.presto</groupId>
