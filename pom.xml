@@ -109,7 +109,7 @@
         <module>presto-local-file</module>
         <!-- <module>presto-tpch</module>
         <module>presto-tpcds</module> -->
-        <module>presto-raptor</module>
+        <!-- <module>presto-raptor</module> -->
         <module>presto-base-jdbc</module>
         <module>presto-testing-docker</module>
         <module>presto-mysql</module>
@@ -129,8 +129,8 @@
         <module>presto-tests</module>
         <module>presto-product-tests</module>
         <module>presto-jdbc</module>
-        <module>presto-pinot</module>
-        <module>presto-pinot-toolkit</module>
+        <!-- <module>presto-pinot</module>
+        <module>presto-pinot-toolkit</module> -->
         <module>presto-cli</module>
         <module>presto-benchmark-driver</module>
         <module>presto-server</module>
