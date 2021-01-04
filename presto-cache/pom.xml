@@ -77,10 +77,10 @@
             <artifactId>guice</artifactId>
         </dependency>
 
-        <dependency>
+        <!-- <dependency>
             <groupId>org.alluxio</groupId>
             <artifactId>alluxio-shaded-client</artifactId>
-        </dependency>
+        </dependency> -->
 
         <!-- Presto SPI -->
         <dependency>
