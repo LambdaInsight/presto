@@ -104,20 +104,20 @@
         <module>presto-hive-hadoop2</module>
         <module>presto-hive-metastore</module>
         <module>presto-i18n-functions</module>
-        <module>presto-teradata-functions</module>
+        <!-- <module>presto-teradata-functions</module> -->
         <module>presto-example-http</module>
         <module>presto-local-file</module>
-        <module>presto-tpch</module>
-        <module>presto-tpcds</module>
+        <!-- <module>presto-tpch</module>
+        <module>presto-tpcds</module> -->
         <module>presto-raptor</module>
         <module>presto-base-jdbc</module>
         <module>presto-testing-docker</module>
         <module>presto-mysql</module>
-        <module>presto-oracle</module>
+        <!-- <module>presto-oracle</module> -->
         <module>presto-postgresql</module>
-        <module>presto-redshift</module>
+        <!-- <module>presto-redshift</module>
         <module>presto-sqlserver</module>
-        <module>presto-mongodb</module>
+        <module>presto-mongodb</module> -->
         <module>presto-bytecode</module>
         <module>presto-client</module>
         <module>presto-parser</module>
@@ -149,8 +149,8 @@
         <module>presto-matching</module>
         <module>presto-memory-context</module>
         <module>presto-proxy</module>
-        <module>presto-kudu</module>
-        <module>presto-elasticsearch</module>
+        <!-- <module>presto-kudu</module>
+        <module>presto-elasticsearch</module> -->
         <module>presto-function-namespace-managers</module>
         <module>presto-expressions</module>
         <!-- <module>presto-benchmark-runner</module>
@@ -353,11 +353,11 @@
                 <version>${project.version}</version>
             </dependency>
 
-            <dependency>
+            <!-- <dependency>
                 <groupId>com.facebook.presto</groupId>
                 <artifactId>presto-oracle</artifactId>
                 <version>${project.version}</version>
-            </dependency>
+            </dependency> -->
 
             <dependency>
                 <groupId>org.testcontainers</groupId>
@@ -527,41 +527,41 @@
                 <version>${project.version}</version>
             </dependency>
 
-            <dependency>
+            <!-- <dependency>
                 <groupId>com.facebook.presto</groupId>
                 <artifactId>presto-spark-classloader-interface</artifactId>
                 <version>${project.version}</version>
-            </dependency>
+            </dependency> -->
 
-            <dependency>
+            <!-- <dependency>
                 <groupId>com.facebook.presto</groupId>
                 <artifactId>presto-spark</artifactId>
                 <version>${project.version}</version>
-            </dependency>
+            </dependency> -->
 
-            <dependency>
+            <!-- <dependency>
                 <groupId>com.facebook.presto</groupId>
                 <artifactId>presto-spark-common</artifactId>
                 <version>${project.version}</version>
-            </dependency>
+            </dependency> -->
 
-            <dependency>
+            <!-- <dependency>
                 <groupId>com.facebook.presto</groupId>
                 <artifactId>presto-spark-base</artifactId>
                 <version>${project.version}</version>
-            </dependency>
+            </dependency> -->
 
-            <dependency>
+            <!-- <dependency>
                 <groupId>com.facebook.presto</groupId>
                 <artifactId>presto-spark-launcher</artifactId>
                 <version>${project.version}</version>
-            </dependency>
-
+            </dependency> -->
+            <!-- 
             <dependency>
                 <groupId>com.facebook.presto</groupId>
                 <artifactId>presto-spark-package</artifactId>
                 <version>${project.version}</version>
-            </dependency>
+            </dependency> -->
 
             <dependency>
                 <groupId>com.fasterxml.jackson.module</groupId>
@@ -817,7 +817,7 @@
                 <version>${dep.drift.version}</version>
             </dependency>
 
-            <dependency>
+            <!-- <dependency>
                 <groupId>io.airlift.tpch</groupId>
                 <artifactId>tpch</artifactId>
                 <version>0.10</version>
@@ -833,7 +833,7 @@
                         <artifactId>annotations</artifactId>
                     </exclusion>
                 </exclusions>
-            </dependency>
+            </dependency> -->
 
             <dependency>
                 <groupId>com.facebook.presto</groupId>
@@ -1090,7 +1090,7 @@
                 <artifactId>discovery-server</artifactId>
                 <version>1.33</version>
             </dependency>
-
+            <!-- 
             <dependency>
                 <groupId>org.alluxio</groupId>
                 <artifactId>alluxio-shaded-client</artifactId>
@@ -1113,7 +1113,7 @@
                         <artifactId>commons-logging</artifactId>
                     </exclusion>
                 </exclusions>
-            </dependency>
+            </dependency> -->
 
             <dependency>
                 <groupId>com.amazonaws</groupId>
@@ -1315,7 +1315,7 @@
                 </exclusions>
             </dependency>
 
-            <dependency>
+            <!-- <dependency>
                 <groupId>org.apache.druid</groupId>
                 <artifactId>druid-core</artifactId>
                 <version>${dep.druid.version}</version>
@@ -1393,7 +1393,7 @@
                         <artifactId>RoaringBitmap</artifactId>
                     </exclusion>
                 </exclusions>
-            </dependency>
+            </dependency> -->
 
             <dependency>
                 <groupId>org.apache.httpcomponents</groupId>
