@@ -155,7 +155,7 @@
             <type>test-jar</type>
         </dependency>
 
-        <dependency>
+        <!-- <dependency>
             <groupId>com.facebook.presto</groupId>
             <artifactId>presto-tpch</artifactId>
             <scope>test</scope>
@@ -165,7 +165,7 @@
             <groupId>io.airlift.tpch</groupId>
             <artifactId>tpch</artifactId>
             <scope>test</scope>
-        </dependency>
+        </dependency> -->
 
         <dependency>
             <groupId>com.facebook.presto</groupId>
