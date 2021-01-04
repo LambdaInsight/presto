@@ -43,7 +43,7 @@
             <artifactId>jsr305</artifactId>
             <optional>true</optional>
         </dependency>
-
+        <!-- 
         <dependency>
             <groupId>com.facebook.presto</groupId>
             <artifactId>presto-tpch</artifactId>
@@ -52,7 +52,7 @@
         <dependency>
             <groupId>io.airlift.tpch</groupId>
             <artifactId>tpch</artifactId>
-        </dependency>
+        </dependency> -->
 
         <dependency>
             <groupId>com.facebook.airlift</groupId>
