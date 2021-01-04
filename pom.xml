@@ -1090,7 +1090,7 @@
                 <artifactId>discovery-server</artifactId>
                 <version>1.33</version>
             </dependency>
-            <!-- 
+
             <dependency>
                 <groupId>org.alluxio</groupId>
                 <artifactId>alluxio-shaded-client</artifactId>
@@ -1113,7 +1113,7 @@
                         <artifactId>commons-logging</artifactId>
                     </exclusion>
                 </exclusions>
-            </dependency> -->
+            </dependency>
 
             <dependency>
                 <groupId>com.amazonaws</groupId>
