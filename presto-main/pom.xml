@@ -423,11 +423,11 @@
             <scope>test</scope>
         </dependency>
 
-        <dependency>
+        <!-- <dependency>
             <groupId>io.airlift.tpch</groupId>
             <artifactId>tpch</artifactId>
             <scope>test</scope>
-        </dependency>
+        </dependency> -->
 
         <dependency>
             <groupId>com.facebook.airlift</groupId>

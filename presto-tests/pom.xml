@@ -102,10 +102,10 @@
             <artifactId>stats</artifactId>
         </dependency>
 
-        <dependency>
+        <!-- <dependency>
             <groupId>io.airlift.tpch</groupId>
             <artifactId>tpch</artifactId>
-        </dependency>
+        </dependency> -->
 
         <dependency>
             <groupId>io.airlift</groupId>
